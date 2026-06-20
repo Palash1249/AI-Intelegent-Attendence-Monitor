@@ -17,13 +17,13 @@ def style_background_layout():
     """, unsafe_allow_html=True)
 
 def style_background_dashboard():
-    st.markdown("""
+    st.markdown ('''
         <style>
             .stApp {
-                background-color: #EOE3FF !important;
+                background: #E0E3FF !important;
             }
         </style>
-    """, unsafe_allow_html=True)
+       ''', unsafe_allow_html=True)
 
 def style_base_layout():
     st.markdown("""
@@ -85,6 +85,10 @@ def style_base_layout():
 
                 button:hover{
                     transform: scale(1.05);
+                }
+
+                .teacher-title{
+                    color:#2f323f !important;
                 }
         </style>
     """, unsafe_allow_html=True)
