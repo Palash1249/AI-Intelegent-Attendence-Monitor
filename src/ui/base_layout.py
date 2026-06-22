@@ -8,7 +8,11 @@ def style_background_layout():
             }
             
             .stApp div[data-testid="stColumn"]{
-                color:#2f323f !important;
+                # color:#2f323f !important;
+                # background-color:#E0E3FF !important;
+                # padding:2.5rem !important;
+                # border-radius: 5rem !important;
+
                 background-color:#E0E3FF !important;
                 padding:2.5rem !important;
                 border-radius: 5rem !important;
@@ -28,9 +32,10 @@ def style_background_dashboard():
 def style_base_layout():
     st.markdown("""
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Michroma&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Michroma&family=Outfit:wght@100..900&display=swap');
-                
+           @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+                    
             /* Hide main NAV BAR OR HEAD BAR */
                 
                 #MainMenu, footer, header {
@@ -55,7 +60,7 @@ def style_base_layout():
                 }
 
                 h3,h4,p{
-                    font-family: 'Outfit', sans-serif !important;
+                    font-family: 'Outfit', sans-serif;
                 }
 
                 button{
@@ -78,7 +83,7 @@ def style_base_layout():
                     border-radius: 1.5rem !important;
                     background: black !important;
                     color:white !important;
-                    padding: 30px 20px !important;
+                    padding: 10px 20px !important;
                     border: none !important;
                     transition: transform 0.25s ease-in-out !important;
                 }
