@@ -123,8 +123,6 @@ def teacher_screen_login():
 
 
 
-
-
 def register_teacher(teacher_username, teacher_name, teacher_pass, teacher_pass_confirm):
     if not teacher_username or not teacher_name or not teacher_pass:
         return False, "All Fields are required!"
