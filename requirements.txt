@@ -6,6 +6,8 @@ bcrypt
 segno
 pillow
 
+librosa
+
 # Utilities
 numpy
 pandas
