@@ -7,6 +7,7 @@ segno
 pillow
 
 librosa
+resemblyzer
 
 # Utilities
 numpy
