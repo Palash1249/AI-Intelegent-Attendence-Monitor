@@ -13,7 +13,7 @@ git+https://github.com/ageitgey/face_recognition_models.git
 setuptools
 
 
-#supabase
+supabase
 bcrypt
 
 segno
