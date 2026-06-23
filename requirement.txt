@@ -1,5 +1,11 @@
 streamlit
 
+supabase
+bcrypt
+
+segno
+pillow
+
 # Utilities
 numpy
 pandas
@@ -13,8 +19,3 @@ git+https://github.com/ageitgey/face_recognition_models.git
 setuptools
 
 
-supabase
-bcrypt
-
-segno
-pillow
